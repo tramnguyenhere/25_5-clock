@@ -42,8 +42,8 @@ function App() {
   };
 
   const handleReset = () => {
-    clearTimeout(timeout);
     setPlay(false);
+    clearTimeout(timeout);
     seTtimeLeft(1500);
     setBreakLength(5);
     setSessionLength(25);
